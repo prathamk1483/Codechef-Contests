@@ -1,0 +1,21 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+        Scanner sc = new Scanner(System.in);
+        int g = sc.nextInt();
+        int s = sc.nextInt();
+        int b = sc.nextInt();
+        
+        int sum = g >= 5 ? 0 : 5-g;
+        sum+= s >= 5 ? 0 : 5-s;
+        sum+= b >= 5 ? 0 : 5-b;
+        
+        System.out.println(sum);
+    
+	}
+}
